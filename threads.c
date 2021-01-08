@@ -33,6 +33,50 @@
 
 
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Threads [0.1.0] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                 Threads by I.A.
+
+        Threads is just an utility program that allows you to manipulate
+    threads more simply than pthread.h does.
+
+    This program only adds 4 functions :
+     - thread_create()
+     - thread_delete()
+     - thread_start()
+     - thread_stop()
+
+    08/01/2021 > [0.1.0] :
+    - Created threads.c/.h.
+
+    BUGS : .
+    NOTES : .
+
+    Contact     : i.a.sebsil83@gmail.com
+    Youtube     : https://www.youtube.com/user/IAsebsil83
+    GitHub repo : https://github.com/iasebsil83
+
+    Let's Code !                                  By I.A.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // -------------------------------- THREADS --------------------------------
 
 //create - delete
