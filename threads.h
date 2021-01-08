@@ -22,11 +22,6 @@
 
 // -------------------------------- DEFINITIONS --------------------------------
 
-//debug
-#define THREAD_DEBUG_ON   //uncomment to enable debug messages
-
-
-
 //threads
 #define THREAD__WAIT_FOR_END 1
 #define THREAD__INTERRUPT 0
