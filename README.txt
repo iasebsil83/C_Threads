@@ -1,4 +1,5 @@
-This program is a simple utility library that will allow you to manipulate threads easier than pthread.h does.
+This program is a simple utility library that will allow you to manipulate threads
+a little bit easier than pthread.h does.
 
 A demonstration program is made in prog.c.
 
