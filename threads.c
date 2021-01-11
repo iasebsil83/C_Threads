@@ -37,7 +37,7 @@
                                  Threads by I.A.
 
         Threads is just an utility program that allows you to manipulate
-    threads more simply than pthread.h does.
+    threads a little bit more simply than pthread.h does.
 
     This program only adds 4 functions :
      - thread_create()
