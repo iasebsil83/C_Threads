@@ -3,7 +3,7 @@ a little bit easier than pthread.h does.
 
 A demonstration program is made in prog.c.
 
-More informations about this library are available in pthread.h.
+More information about this library are available in threads.c.
 
 
 
