@@ -1,9 +1,9 @@
 This program is a simple utility library that will allow you to manipulate threads
 a little bit easier than pthread.h does.
 
-A demonstration program is made in prog.c.
+A demonstration program is made in src/prog.c.
 
-More information about this library are available in threads.c.
+More information about this library are available in lib/threads.c.
 
 
 
