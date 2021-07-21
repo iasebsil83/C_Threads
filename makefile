@@ -6,11 +6,11 @@ run: threads.o prog.o
 
 
 #example program
-prog.o: prog.c threads.h
-	gcc -Wall -c prog.c -O2
+prog.o: src/prog.c lib/threads.h
+	gcc -Wall -c src/prog.c -O2
 
 
 
 #threads library
-threads.o: threads.c threads.h
-	gcc -Wall -c threads.c -O2
+threads.o: lib/threads.c lib/threads.h
+	gcc -Wall -c lib/threads.c -O2

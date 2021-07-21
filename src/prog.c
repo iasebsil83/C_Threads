@@ -8,15 +8,7 @@
 
 
 //threads utility
-#include "threads.h"
-
-
-
-
-
-
-
-
+#include "../lib/threads.h"
 
 
 
@@ -47,16 +39,8 @@
     BUGS : Active bugs in last version.
     NOTES : Notes.
 
-    Contact : 
+    Contact : ...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
-
-
-
-
-
-
 
 
 
@@ -105,15 +89,19 @@ void* f2(void* args){
 
 
 
-
-
-
-
-
-
-
-
 // ---------------- EXECUTION ----------------
+#include <string.h>
+
+// writes an error message : (const char* type, [const] char* msg, FILE* dest)
+// WARNING : No flush() is done on #dest#.
+#define ERROR(type,msg,dest) {                              \
+	char* fileName = strrchr(__FILE__, '/') + 1;          \
+	if(fileName-1 == NULL){ fileName = __FILE__; }        \
+	fprintf(dest, type " ERROR > %s : ", fileName);  \
+	fprintf(dest, __FUNCTION__);                          \
+	fprintf(dest, "() : ");                               \
+	fprintf(dest, msg);                                   \
+}
 
 //main
 int main(){
