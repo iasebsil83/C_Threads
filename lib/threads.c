@@ -6,17 +6,15 @@
 
 
 
+
 //multithreading
 #include <pthread.h>
 
 
 
+
 //own header
 #include "threads.h"
-
-
-
-
 
 
 
@@ -75,10 +73,6 @@
 
 
 
-
-
-
-
 // -------------------------------- THREADS --------------------------------
 
 //create - delete
@@ -118,6 +112,7 @@ void thread_delete(thread* t){
 	free(t->function);
 	free(t);
 }
+
 
 
 

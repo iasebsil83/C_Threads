@@ -7,12 +7,15 @@
 
 
 
+
+//strings
+#include <string.h>
+
+
+
+
 //threads utility
 #include "../lib/threads.h"
-
-
-
-
 
 
 
@@ -41,10 +44,6 @@
 
     Contact : ...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
-
-
 
 
 
@@ -85,12 +84,7 @@ void* f2(void* args){
 
 
 
-
-
-
-
 // ---------------- EXECUTION ----------------
-#include <string.h>
 
 // writes an error message : (const char* type, [const] char* msg, FILE* dest)
 // WARNING : No flush() is done on #dest#.
@@ -102,6 +96,9 @@ void* f2(void* args){
 	fprintf(dest, "() : ");                               \
 	fprintf(dest, msg);                                   \
 }
+
+
+
 
 //main
 int main(){
