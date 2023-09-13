@@ -108,8 +108,8 @@ int main(){
 
 
 	//create threads
-	thread* t1 = thread_create(f1);
-	thread* t2 = thread_create(f2);
+	thread* t1 = thread_create(f1, NULL);
+	thread* t2 = thread_create(f2, NULL);
 
 	//error cases
 	if(t1 == NULL || t2 == NULL){
