@@ -1,0 +1,13 @@
+CURRENT STATE:
+    BUGS: .
+    NOTES: .
+
+
+
+13/09/2023 > [0.1.1] :
+- Added argument passing to thread_create().
+
+
+
+08/01/2021 > [0.1.0] :
+- Created threads.c/.h.

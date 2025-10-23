@@ -6,8 +6,6 @@
 
 
 
-
-
 // -------------------------------- DEFINITIONS --------------------------------
 
 //threads
@@ -26,26 +24,14 @@ typedef struct THREAD thread;
 
 
 
-
-
 // -------------------------------- THREADS --------------------------------
 
 //create - delete
 thread* thread_create(void* (*function)(void*), void* args);
 void thread_delete(thread* t);
 
-
-
-
 //start - stop
 void thread_start(thread* t);
 void thread_stop(thread* t, char waitForEnd);
-
-
-
-
-
-
-
 
 #endif

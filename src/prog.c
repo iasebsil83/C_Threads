@@ -5,19 +5,11 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-
-
-
 //strings
 #include <string.h>
 
-
-
-
 //threads utility
 #include "../lib/threads.h"
-
-
 
 
 
@@ -29,23 +21,8 @@
 
         Blablabla about the subject.
 
-    DD/MM/YYYY > [V.V.V] :
-    - Added something.
-    - Added something else.
-
-    DD/MM/YYYY > [V.V.V] :
-    - Added something that wasn't before.
-    - Fixed a bug.
-    - Added something else.
-    - Added something else again.
-
-    BUGS : Active bugs in last version.
-    NOTES : Notes.
-
-    Contact : ...
+    Contact: .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
 
 
 
@@ -82,8 +59,6 @@ void* f2(void* args){
 
 
 
-
-
 // ---------------- EXECUTION ----------------
 
 // writes an error message : (const char* type, [const] char* msg, FILE* dest)
@@ -96,7 +71,6 @@ void* f2(void* args){
 	fprintf(dest, "() : ");                               \
 	fprintf(dest, msg);                                   \
 }
-
 
 
 

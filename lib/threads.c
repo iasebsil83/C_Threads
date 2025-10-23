@@ -27,18 +27,7 @@
      - thread_start()
      - thread_stop()
 
-    08/01/2021 > [0.1.0] :
-    - Created threads.c/.h.
-
-    13/09/2023 > [0.1.1] :
-    - Added argument passing to thread_create().
-
-    BUGS : .
-    NOTES : .
-
-    Contact     : i.a.sebsil83@gmail.com
-    Youtube     : https://www.youtube.com/user/IAsebsil83
-    GitHub repo : https://github.com/iasebsil83
+    Contact: https://github.com/iasebsil83
 
     Let's Code !                                  By I.A.
 ******************************************************************************************
@@ -63,8 +52,6 @@
 
     If not, see <https://www.gnu.org/licenses/>.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
 
 
 
